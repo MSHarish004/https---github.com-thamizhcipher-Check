@@ -278,6 +278,8 @@ h4
     } */
     .conference img{
         height: 250px;
+        position: relative;
+        top: 12%;
     }
     /* .conference h1{
         padding-bottom: 15px;
@@ -301,7 +303,6 @@ h4
     }
     .conference h1{
         font-size: 2rem;
-        padding-top: 0px;
     }
     .date{
         font-size: 1.25rem;
@@ -312,7 +313,7 @@ h4
     }
     .logo{
         position: relative;
-        top: 18%;
+        top: 15%;
         height: 150px;
         width: auto;
         
