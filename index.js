@@ -18,6 +18,8 @@ function topFunction() {
   
 }
 
+// Animation
+
 "use strict";
 
 var canvas = document.getElementById('canvas'),
@@ -29,17 +31,18 @@ var canvas = document.getElementById('canvas'),
   stars = [],
   count = 0,
   maxStars = 1400;
-
+//  #420f9f
 
 var canvas2 = document.createElement('canvas'),
     ctx2 = canvas2.getContext('2d');
-    canvas2.width = 500;
+    canvas2.width = 500;  
     canvas2.height = 425;
 var half = canvas2.width/2,
     gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
     gradient2.addColorStop(0.025, '#fff');
-    gradient2.addColorStop(0.1, 'hsl(' + hue + ', 61%, 33%)');
+    gradient2.addColorStop(0.1, '#420f9f');
     gradient2.addColorStop(0.25, 'hsl(' + hue + ', 64%, 6%)');
+    gradient2.addColorStop(0.1, '#810081');
     gradient2.addColorStop(1, 'transparent');
 
     ctx2.fillStyle = gradient2;
