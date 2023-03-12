@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+  <meta charset="utf-8">
+  <title>REC</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Moon+Dance&family=Passions+Conflict&family=Sacramento&family=Tilt+Neon&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="icon" href="/images/rec.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+ <!-- Nav Bar -->
+
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-3 mb-3" id="nav-bar">
+  <a class="navbar-brand" href="https://www.rajalakshmi.org/"><img class="rajalakshmi" src="images/rec.png" alt="REC" height="100.5px" width="350px"></a>
+  <a class="navbar-brand" href="#top"><img src="/images/iic-logo.png" alt="REC" height="70.5px" width="160px"></a>
+  <a class="navbar-brand" href="#top"><img src="/images/NBA.png" alt="REC" height="77.5px" ></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" onclick="pullDown()"></span>
+  </button>
+ <div class="collapse navbar-collapse navbar-contents" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#canvas">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#committee-id">Committee</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#call-for-paper-id">Call for papers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#registration-id">Registration</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#contact-us">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+ <!-- navbar ends -->
+
+<!-- first section -->
+<section class="conference">
+  <!-- <div class="container-fluid">
+    <div class="row"> -->
+
+        <img src="/images/logo.png" alt="..." class="logo" height="250px" width="250px">
+
+      
+        <div>
+          <h1>INTERNATIONAL CONFERENCE</h1>
+        <h1> ON</h1>
+        <h1>COMPUTING AND DATA SCIENCE</h1>
+        <h3>(ICCDSC-2023)</h3>
+        <br>
+        <em class="date"><p>15<sup>th</sup> - 16<sup>th</sup> DECEMBER 2023</p></em>
+    
+        </div>
+     
+    <!-- </div>
+  </div>
+   -->
+
+</section>
+<!-- first section ends -->
+<canvas id="canvas" style="width: 100%;">
+</canvas>
+
+<!-- second section -->
+<section id="about">
+  <div class="container">
+    <nav>
+      <div class="nav nav-tabs about-navbar" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-about-college-tab" data-toggle="tab" href="#nav-about-college" role="tab" aria-controls="nav-home" aria-selected="true">About College</a>
+        <a class="nav-item nav-link" id="nav-about-dept-tab" data-toggle="tab" href="#nav-about-dept" role="tab" aria-controls="nav-dept" aria-selected="false">About Department</a>
+        <a class="nav-item nav-link" id="nav-about-conference-tab" data-toggle="tab" href="#nav-about-conference" role="tab" aria-controls="nav-conference" aria-selected="false">About Conference</a>
+      </div>
+    </nav>
+    <div class="tab-content about-contents" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-about-college" role="tabpanel" aria-labelledby="nav-home-tab">Rajalakshmi Engineering College, an Autonomous institution affiliated to Anna University, Chennai, was established in the year 1997 under the aegis of Rajalakshmi Educational Trust whose members have had consummate experience in the fields of education and industry. The College has grown from strength to strength in the last 23 years and progressing towards Excellence in Engineering Education, Research and Development. The College presently offers 16 Undergraduate and 10 Post Graduate programmes, with an annual intake of 2030 students. The approval of AICTE and affiliation of the Anna University for such a progressive intake is a standing testimony for the continuous growth of the college over the years. 9 of our departments are recognized as Research Centres of Anna University to conduct Ph.D. programmes and many scholars have obtained Ph.D. through these research centre.</div>
+      <div class="tab-pane fade" id="nav-about-dept" role="tabpanel" aria-labelledby="nav-about-dept-tab">Since the inception of REC in 1997, the Department of Computer Science and Engineering has been continuously making progress in teaching and R&D activities. Initially commencing with an intake of 60 students, currently the intake is 300 seats. The Post Graduate programme viz. M.E. - Computer Science and Engineering was introduced in the year 2004-05 and in 2006 the Department was recognized as a Collaborative Research Centre by Anna University to offer Ph.D. programmes. The Department is accredited by NBA and Industries. 
+        The Department has been maintaining an active interaction with the industries particularly with the Computer Society of India. The IT major Tata Consultancy Services has accredited the college for faculty and students development programmes, campus interview etc. The Department has entered an MoU with IBM, Infosys and U.S. Technologies for software training and Faculty Development Programmes, besides R&D activities. Many of the students are well placed in leading software companies such as TCS, Infosys, Satyam, Polaris etc.</div>
+      <div class="tab-pane fade" id="nav-about-conference" role="tabpanel" aria-labelledby="nav-about-conference-tab">This conference mainly focuses towards the evolving requirement for intelligent computing and communication. This conference aims to present an integrated platform for advanced and multi-disciplinary research towards novelties that may be realistic to offer genuine solution to wide-ranging glitches in society, environment and industries. The Scope is also stretched out in the direction of deployment of emerging computational and knowledge transfer approaches, optimizing solutions in varied disciplines of science and technology. 
+        InterNational Conference on Computing and Data Science (ICCDS-2023) is the platform where academicians and industry research present their contemporary findings so that new inclinations and thoughts on computing and communication can be explored. The key objective is to offer the participants all over the nation to share their ideas and experience with peers. In addition to this, the conference will also help the participants in establishing a research network which will help them in their career path.
+        Eminent personalities from DRDO have consented to be part of this conference by delivering special lectures on recent advanced topics.
+        Expose the participants to the emerging technologies and methodologies and make them more capable of solving future challenges with team collaboration.
+Provide an enriched platform for Engineers, Technicians, Industry and Research Organization to share their vision, experience, and perspective directly with engineers, students and innovators.
+
+        </div>  
+    </div>
+  </div>
+</section>
+
+<!-- second section ends -->
+<p id="committee-id"></p>
+<!-- Committee section -->
+<section id="committee" class="reveal">
+  <h2 style="color:white">Committee</h2>
+  <div class="container">
+    <div class="row reveal" style="align-items: center; width: 100%;">
+      <div class="col-lg-12">
+        <div class="card" >
+          <div class="card-header">
+            <h3>CHIEF PATRONS</h3>
+          </div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"> <p class="em">Mr.S.Meganathan,</p> 
+                <p>Correspondent,</p> 
+                <p>Rajalakshmi Institutions.</p>
+                <hr>
+                <p class="em">Dr.(Mrs).Thangam Meganathan,</p> 
+                <p>Chairperson,</p> <p>Rajalakshmi Institutions.</p>
+                <hr>
+                <p class="em">Mr.Abhay Shankar Meganathan, </p>
+                <p>Vice Chairman,</p> <p>Rajalakshmi Engineering College.</p>
+                </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+     </div>
+     <div class="row reveal">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header"><h3>PATRONS</h3></div>
+          <div class="card-body"><ul class="list-group list-group-flush">
+            <li class="list-group-item"><p class="em">Dr.C.R.Muthukrishnan,</p> 
+              <p>Advisor,Rajalakshmi Institutions.</p>              
+             <hr class="people-hr">
+              <p class="em">Dr. S.N.Murugesan, </p>
+              <p style="padding-bottom: 31px;">Principal,Rajalakshmi Engineering College.</p>
+              </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header"><h3>CONVENERS</h3></div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><p class="em">Dr. V. Murali Bhaskaran,</p> 
+                <p>Dean Academics, <br>
+                Professor in CSE.</p>                
+                <hr class="people-hr"><p class="em">Dr. P. Kumar,</p> 
+                <p>Professor and Head, <br>
+                Department of CSE.</p>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-header"><h3>CO-ORDINATORS</h3></div>
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><p class="em">Dr.K.Ananthajothi,</p>
+                <p>Associate Professor,</p>
+                <p>Department of CSE.</p>
+                
+                <hr class="people-hr">
+                 <p class="em">Dr.N.Duraimurugan,</p> 
+                <p>Associate Professor,</p>
+                <p>Department of CSE.</p>
+          
+                
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid technical-team reveal">
+      <h3>  TECHNICAL COMMITTEE</h3>
+      <div class="row">
+        <div class="col-lg-6"  style="text-align: left;">
+          <ul>
+            <li>Dr. S. Poonkuzhali, Professor / CSE</li>
+            <li>Dr. P. Revathy, Professor / CSE</li>
+            <li>Dr. Priya Vijay, Associate Professor / CSE</li>
+            <li>Dr.S.Baghavathipriya, Professor / CSE</li>
+            <li>Dr.K. Devaki, Professor / CSE</li>
+            </ul>
+        </div>
+        <div class="col"  style="text-align: left;">
+          <ul>
+            <li>Dr. B. V. Krishna, Professor / CSE</li>
+            <li>S.Vinoth Kumar, Professor / CSE</li>
+            <li>Dr.S.Srinivasan, Professor / CSE</li>
+            <li>Dr. Anantha Siva Prakasam, Professor / CSE</li>
+            <li>Dr.R.Sabitha, Professor / CSE</li>
+          </ul>
+        </div>
+      </div>
+    </div>    
+
+  </div>
+</section>
+<!-- Committee section ends -->
+<p id="call-for-paper-id"></p>
+<!-- call for paper section -->
+
+<section id="call-for-paper" class="reveal">
+  <div class="container">
+   <div class="call-for-paper-div">
+    <h3> <b>CALL FOR PAPERS</b></h3>
+    <p class="call-for-paper-contents">We solicit original research and technical papers which have not published elsewhere. Paper Submissions will be reviewed and evaluated based on the originality, technical quality and relevance to conference.</p>
+   </div>
+   <div class="call-for-paper-div">
+    <h3><b>TOPICS OF INTEREST INCLUDE, BUT NOT LIMITED TO</b></h3>
+  <p>Authors are invited to contribute in the conference by submitting the articles in the following areas.
+    <div class="row">
+      <div class="col">
+        <ul  style="list-style-position: inside; list-style-type: none; text-align: left;">
+              <li>Artificial Intelligence</li> 
+              <li>Machine Learning</li>
+              <li>Deep Learning</li>
+              <li>Natural language Processing</li>
+              <li>Big Data Analytics</li>
+              <li>Medical Image Processing</li>
+              <li>Digital Image Processing</li>
+              <li>Cloud Computing</li>
+              <li>Distributed Computing</li>
+              <li>Mobile & Pervasive Computing</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul  style="list-style-position: inside; list-style-type: none; text-align: left;">
+          <li>Internet of Things</li>
+          <li>Human Computer Interaction</li>
+          <li>Virtual Reality & Augmented Reality</li>
+          <li>Information and Data Security</li>
+          <li>Green Computing</li>
+          <li>Smart Networking</li>
+          <li>Adhoc Networks</li>
+          <li>Wireless Sensor Networks</li>
+          <li>Network & Data Security</li>
+          <li>Network Protocols, QOS</li>
+        </ul>
+      </div>
+    </div>
+  </p>
+  </div>
+  </div>
+</section>
+<!-- call for paper section ends -->
+<p id="registration-id"></p>
+<!-- Registration section -->
+<section id="registration" class="reveal">
+  <div class="container-fluid">
+    <h3>IMPORTANT DATES</h3>
+    <div class="registration-content">
+      <p>Last Date : 25<sup>th</sup> September,2023</p>
+      <p>Notification Accept : 25<sup>th</sup> October,2023</p>
+      <p>Camera ready paper & presentation : 25<sup>th</sup> November,2023</p>
+    </div>
+  </div>
+</section>
+<!-- Registration section ends -->
+
+<div class="row reveal" style="align-items: center; margin: 50px;">
+  <div class="col">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.425820246649!2d80.0012808146124!3d13.008533390831655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a528c9ebac84723%3A0x18e2bf88dfefa3ed!2sRajalakshmi%20Engineering%20College!5e0!3m2!1sen!2sin!4v1678207250371!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+<button onclick="topFunction()" id="myBtn"><img src="https://cdn-icons-png.flaticon.com/512/3444/3444494.png" alt=""></button>
+ 
+
+ <footer id="contact-us" class="reveal">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+          <h3 class="footer-heads">Reach Us</h3>
+          <h4><b> Rajalakshmi Engineering College</b></h4>
+          <p style="font-size: 1.2rem;">An Autonomous institution <br> Affiliated to Anna University, Chennai <br>Rajalakshmi Nagar, <br> Thandalam, <br> Chennai - 602105.
+            <br>
+            <br>
+            <a href="tel:044-67181111" style="text-decoration: none;"><i class="fa-solid fa-phone" style="padding-right: .58rem;"></i> 044-67181111</a>
+          </p>
+      </div>
+      <div class="col-lg-4">
+        <h3 class="footer-heads">Contact Us</h3>
+        <p class="contact-names"><b>Dr.N.Duraimurugan</b>,<br>
+          Associate Professor,<br>
+          Department of CSE<br>
+          Contact : 9944915267
+        </p>
+        <p class="contact-names"><b>Dr.K.Ananthajothi,</b><br>
+          Associate Professor,<br>
+          Department of CSE<br>
+          Contact : 9994075769
+        </p>
+      </div>
+      <div class="col-lg-4">
+          <h3 class="footer-heads">Site Developed By</h3>
+          <p class="dev-names">Thamizh Bharathi M <br>
+            Syed Javith R <br>
+             Sylvia V<br>
+             Yashvanth NG
+          </p>
+      </div>
+    </div>
+  </div>
+  
+  <a href="https://instagram.com/rec_chennai" target="blank" style="text-decoration: none;"> <i class="icons fa-brands fa-instagram"></i> </a>
+  <a href="mailto:iccds@rajalakshmi.edu.in" style="text-decoration: none;" target="blank" > <i class="icons fa-solid fa-envelope"></i> </a>
+  <a href="https://www.linkedin.com/school/rajalakshmi-engineering-college/" target="blank" style="text-decoration: none;"> <i class="icons fa-brands fa-linkedin"></i> </a> 
+  <p>© Copyrights 2023. All rights reserved | REC</p>
+
+</footer>
+<script src="index.js"></script>
+
+</body>
+
