@@ -39,7 +39,7 @@ a:hover{
     color: white;
     line-height: 2;
     padding: 50px 0;
-    background-image: url('/images/admin.png');
+    background-image: url('../images/admin.png');
     background-color: rgba(0, 0, 0, 1);
     background-repeat: no-repeat;
     font-weight: bolder;
@@ -358,8 +358,12 @@ h4
     {
         margin-top: .35rem;
     }    
+<<<<<<< HEAD
     .navbar-brand
     {
         margin: 0;
     }
 }
+=======
+}
+>>>>>>> ea2348983547868572447810f4a62d0afb9a265c
