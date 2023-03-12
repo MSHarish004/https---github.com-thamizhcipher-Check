@@ -39,7 +39,7 @@ a:hover{
     color: white;
     line-height: 2;
     padding: 50px 0;
-    background-image: url('images/admin.png');
+    background-image: url('/images/admin.png');
     background-color: rgba(0, 0, 0, 1);
     background-repeat: no-repeat;
     font-weight: bolder;
@@ -272,16 +272,16 @@ h4
     #committee{
         margin-top: 28rem;
     }
-    .conference div{
+    /* .conference div{
         margin-top: 90px;
         padding-top: 30px;
-    }
+    } */
     .conference img{
         height: 250px;
     }
-    .conference h1{
+    /* .conference h1{
         padding-bottom: 15px;
-    }
+    } */
     
 
 }
@@ -348,5 +348,13 @@ h4
     .navbar-expand-custom .navbar-toggler {
         display: none;
     }
+
 }
-  
+
+@media screen and (max-width:1335px) 
+{
+    .conference
+    {
+        margin-top: .35rem;
+    }    
+}
